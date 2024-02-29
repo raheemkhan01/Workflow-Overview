@@ -1,0 +1,50 @@
+.Heading {
+   
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.Heading h3{
+    color: var(--Primary-8, #0050B3);
+font-family: Segoe UI;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.projectResourseCard{
+    width: 20.18238rem;
+height: 22.1875rem;
+flex-shrink: 0;
+border-radius: 0.4375rem;
+background: var(--Neutral-1, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 1.25rem;
+}
+.taskDocument{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* box-shadow: 1px 1px 10px #F5F5F5 ; */
+    align-items: center;
+    row-gap: 2rem;
+}
+.userInfo h2{
+    color: var(--Primary-8, #0050B3);
+font-family: Roboto;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 133.333% */
+
+}

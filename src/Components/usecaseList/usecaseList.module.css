@@ -1,0 +1,83 @@
+.listTable{
+    width: 100%;
+    border-radius: 0.3125rem;
+background: #FFF;
+}
+.heading{
+    color: var(--Primary-8, #0050B3);
+font-family: Segoe UI;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.useCaseContainer{
+    width: 100vw;
+    /* border: 1px solid; */
+}
+.headingRow{
+    width: 100%;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+.headings{
+    padding: 1rem;
+    text-align: end;
+}
+
+
+/* styles/Table.module.css */
+
+.tableContainer {
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    gap: 1rem;
+    /* border: 1px solid; */
+    outline: 0;
+  }
+  .tableRow {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 0;
+    outline: 0;
+    column-gap: 0.5rem;
+  }
+  .tableCell {
+    border-right: 2px solid #91D5FF;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid; */
+    text-align: center;
+  }
+  .tableCell2 {
+    /* border-right: 2px solid #91D5FF; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .listHeading{
+    border-bottom: 2px solid #91D5FF;
+    padding-bottom: 1rem;
+  }
+  .bodyRow{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 0;
+    outline: 0;
+    row-gap: 2rem;
+  }
+  .usecaseNo{
+    color: var(--Primary-5, #40A9FF);
+font-family: Segoe UI;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0.625rem; /* 55.556% */
+  }

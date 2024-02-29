@@ -1,0 +1,18 @@
+.positionTop{
+    display: block;
+  text-align: center;
+  margin-top: 8px; /* Adjust the margin as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+.stepTitle{
+    .step-title {
+        display: block;
+        text-align: center;
+        margin-top: 8px; /* Adjust the margin as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        font-weight: bold;
+        /* Add other styles as needed */
+      }
+}
+  
